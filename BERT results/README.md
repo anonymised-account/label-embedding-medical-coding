@@ -1,13 +1,11 @@
 The folder presents results of the BERT ([BioBERT](https://github.com/dmis-lab/biobert)) model on the MIMIC-III and MIMIC-III-50 datasets.
 
 # Files
-MIMIC-III-50 results are in ```bert-50.xlsx``` and ```bert-50-ce.xlsx```.
+MIMIC-III-50 results are in ```bert-50.csv``` and ```bert-50-ce.csv```.
 
-MIMIC-III results are in ```bert-50-full.xlsx``` and ```bert-full-ce.xlsx```.
+MIMIC-III results are in ```bert-50-full.csv``` and ```bert-full-ce.csv```.
 
 The files with ```ce``` include results with label embedding initialisation (or "code embedding").
-
-Corresponding ```.csv``` files are also provides for easy viewing.
 
 Every row after the header in each file contains training and testing results of a random run. 
 
