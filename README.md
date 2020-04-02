@@ -51,7 +51,7 @@ def _code_emb_init(self, code_emb, code_list):
 * [BioBERT](https://github.com/dmis-lab/biobert) for pre-trained BioBERT models.
 
 # Dataset and preprocessing
-We use [the MIMIC-III dataset](https://mimic.physionet.org/) with the preprocessing steps from [CAML](https://github.com/jamesmullenbach/caml-mimic).
+We use [the MIMIC-III dataset](https://mimic.physionet.org/) with the preprocessing steps from [caml-mimic](https://github.com/jamesmullenbach/caml-mimic).
 
 # Pre-training of label embeddings
 Using the continous bag-of-words algorithm (cbow) in Gensim word2vec (see [gensim.models.word2vec.Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec), on all label sets in the training data.
