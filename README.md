@@ -41,6 +41,9 @@ def _code_emb_init(self, code_emb, code_list):
         print("final layer: code embedding initialised")
 ```
 
+# Results
+See folders for results of mean and standard deviation of each model.
+
 # Requirements
 * Python 3.6.*
 * PyTorch 0.3.0 with [caml-mimic](https://github.com/jamesmullenbach/caml-mimic) for CNN,BiGRU,CNN+att models for CNN,BiGRU,CNN+att models
