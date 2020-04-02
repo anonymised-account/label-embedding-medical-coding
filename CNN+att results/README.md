@@ -12,6 +12,8 @@ Every row after the header in each file contains training and testing results of
 The last row is the averaged results of 10 runs with standard deviation.
 
 # Metrics
+The metrics follow the study in (Mullenbach et al., 2018)
+
 * Validation results:
 
   Macro-averaging accuracy, prevision, recall, f1 and AUC: ```acc_macro```, ```prec_macro```, ```rec_macro```, ```f1_macro```, ```auc_macro```
@@ -31,3 +33,6 @@ The last row is the averaged results of 10 runs with standard deviation.
   Example-based precision, recall, and f1 at k: ```rec_at_k_te```, ```prec_at_k_te```, ```f1_at_k_te```
   
   Loss: ```loss_test_te```
+
+
+Mullenbach J, Wiegreffe S, Duke J, Sun J, Eisenstein J. Explainable Prediction of Medical Codes from Clinical Text. InProceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers) 2018 Jun (pp. 1101-1111).
