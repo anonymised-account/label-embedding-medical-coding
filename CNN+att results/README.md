@@ -5,7 +5,7 @@ MIMIC-III-50 results are in ```caml_result_50.xlsx``` and ```caml_ce_result_50.x
 
 MIMIC-III results are in ```caml_result_full.xlsx``` and ```caml_ce_result_full.xlsx```.
 
-where the files with ```ce``` include results with label embedding initialisation (or code embedding).
+where the files with ```ce``` include results with label embedding initialisation (or "code embedding").
 
 Every row after the header in each file contains training and testing results of a random run. 
 
