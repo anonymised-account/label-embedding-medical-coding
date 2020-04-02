@@ -1,7 +1,7 @@
 The folder presents results of the Bi-GRU model on the MIMIC-III and MIMIC-III-50 datasets.
 
 # Files
-MIMIC-III-50 results are in ```bigru_result_50.xlsx``` and ```bigru_ce_result_50.xlsx```.
+MIMIC-III-50 results are in ```bigru_result_50.xlsx``` and ```bigru_result_50_ce.xlsx```.
 
 MIMIC-III results are in ```bigru_result_full.xlsx``` and ```bigru_result_full_ce.xlsx```.
 
