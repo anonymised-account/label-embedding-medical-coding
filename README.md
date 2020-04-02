@@ -45,8 +45,8 @@ def _code_emb_init(self, code_emb, code_list):
 See the folders for detailed results (mean and standard deviation)of various Micro-averaged, Macro-averaged, and example-based metrics) of each model.
 
 <p align="center">
-    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-results.JPG" width="400" title="Results of the MIMIC-III dataset">
-    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-50%20results.JPG" width="400" title="Results of the MIMIC-III-50 dataset">
+    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-results.JPG" width="420" title="Results of the MIMIC-III dataset">
+    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-50%20results.JPG" width="420" title="Results of the MIMIC-III-50 dataset">
 </p>
 
 # Requirements
