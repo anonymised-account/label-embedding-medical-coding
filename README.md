@@ -10,6 +10,7 @@ Key part of the implementation of label embedding initiailisation:
 ```
 # based on https://github.com/jamesmullenbach/caml-mimic/blob/master/learn/models.py
 def _code_emb_init(self, code_emb, code_list):
+        # code_emb is a Gensim Word2Vec model loaded from pre-trained label embeddings
         # code_list is a list of code having the same order as in multi-hot representation (sorted by frequency from high to low)
         code_embs = Word2Vec.load(code_emb)
         # bound for random variables for Xavier initialisation.
