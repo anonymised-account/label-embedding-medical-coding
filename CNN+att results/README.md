@@ -14,7 +14,7 @@ The last row is the averaged results of 10 runs with standard deviation.
 # Metrics
 * Validation results:
 
-  Macro-averaging accuracy, prevision, recall, f1 and AUC: acc_macro, prec_macro, rec_macro, f1_macro, auc_macro	
+  Macro-averaging accuracy, prevision, recall, f1 and AUC: ```acc_macro```, ```prec_macro```, ```rec_macro```, ```f1_macro```, ```auc_macro```
   
   Micro-averaging accuracy, prevision, recall, f1 and AUC: acc_micro, prec_micro, rec_micro, f1_micro, auc_micro	
 
