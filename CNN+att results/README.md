@@ -16,18 +16,18 @@ The last row is the averaged results of 10 runs with standard deviation.
 
   Macro-averaging accuracy, prevision, recall, f1 and AUC: ```acc_macro```, ```prec_macro```, ```rec_macro```, ```f1_macro```, ```auc_macro```
   
-  Micro-averaging accuracy, prevision, recall, f1 and AUC: acc_micro, prec_micro, rec_micro, f1_micro, auc_micro	
+  Micro-averaging accuracy, prevision, recall, f1 and AUC: ```acc_micro```, ```prec_micro```, ```rec_micro```, ```f1_micro```, ```auc_micro```
 
-  Example-based precision, recall, and f1 at k: rec_at_k, prec_at_k, f1_at_k
+  Example-based precision, recall, and f1 at k: ```rec_at_k```, ```prec_at_k```, ```f1_at_k```
   
-  Loss: loss_dev	
+  Loss: ```loss_dev```
 
 * Testing results:
   
-  Macro-averaging accuracy, prevision, recall, f1 and AUC: acc_macro_te, prec_macro_te, rec_macro_te, f1_macro_te, auc_macro_te	
+  Macro-averaging accuracy, prevision, recall, f1 and AUC: ```acc_macro_te```, ```prec_macro_te```, ```rec_macro_te```, ```f1_macro_te```, ```auc_macro_te```	
   
-  Micro-averaging accuracy, prevision, recall, f1 and AUC: acc_micro_te, prec_micro_te, rec_micro_te, f1_micro_te, auc_micro_te	
+  Micro-averaging accuracy, prevision, recall, f1 and AUC: ```acc_micro_te```, ```prec_micro_te```, ```rec_micro_te```, ```f1_micro_te```, ```auc_micro_te```	
  
-  Example-based precision, recall, and f1 at k: rec_at_k_te, prec_at_k_te, f1_at_k_te
+  Example-based precision, recall, and f1 at k: ```rec_at_k_te```, ```prec_at_k_te```, ```f1_at_k_te```
   
-  Loss: loss_test_te
+  Loss: ```loss_test_te```
