@@ -42,7 +42,14 @@ def _code_emb_init(self, code_emb, code_list):
 ```
 
 # Results
-See folders for results of mean and standard deviation of each model.
+See the folders for detailed results (mean and standard deviation)of various Micro-averaged, Macro-averaged, and example-based metrics) of each model.
+
+<p align="center">
+    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-results.JPG" width="400" title="Results of MIMIC=III">
+</p>
+<p align="center">
+    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-50%20results.JPG" width="400" title="Results of MIMIC=III-50">
+</p>
 
 # Requirements
 * Python 3.6.*
