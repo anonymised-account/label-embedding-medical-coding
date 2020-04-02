@@ -45,10 +45,8 @@ def _code_emb_init(self, code_emb, code_list):
 See the folders for detailed results (mean and standard deviation)of various Micro-averaged, Macro-averaged, and example-based metrics) of each model.
 
 <p align="center">
-    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-results.JPG" width="400" title="Results of MIMIC=III">
-</p>
-<p align="center">
-    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-50%20results.JPG" width="400" title="Results of MIMIC=III-50">
+    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-results.JPG" width="400" title="Results of the MIMIC-III dataset">
+    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-50%20results.JPG" width="400" title="Results of the MIMIC-III-50 dataset">
 </p>
 
 # Requirements
@@ -61,13 +59,13 @@ See the folders for detailed results (mean and standard deviation)of various Mic
 * [BioBERT](https://github.com/dmis-lab/biobert) for pre-trained BioBERT models.
 
 # Dataset and preprocessing
-We use [the MIMIC-III dataset](https://mimic.physionet.org/) with the preprocessing steps from [caml-mimic](https://github.com/jamesmullenbach/caml-mimic).
+We used [the MIMIC-III dataset](https://mimic.physionet.org/) with the preprocessing steps from [caml-mimic](https://github.com/jamesmullenbach/caml-mimic) to generate the two dataset settings MIMIC-III and MIMIC-III-50.
 
 # Pre-training of label embeddings
-Using the continous bag-of-words algorithm (cbow) in Gensim word2vec (see [gensim.models.word2vec.Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec), on all label sets in the training data.
+We used the continous bag-of-words algorithm (cbow) in Gensim word2vec (see [gensim.models.word2vec.Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec), on all label sets in the training data.
 
 # Other details 
-* Using BioBERT: See answer from https://github.com/huggingface/transformers/issues/457#issuecomment-518403170.
+* Using pre-trained BioBERT models: See answer from https://github.com/huggingface/transformers/issues/457#issuecomment-518403170.
 * Training BERT for long documents: We adapted the sliding window approach from [SimpleTransformers](https://github.com/ThilinaRajapakse/simpletransformers) for multi-label classification. The idea is to treat a long document (discharge summaries in this project) as separate documents within the token length limit (sharing same set of labels) for training. During the testing stage, output averaged results of separated documents. The results of MIMIC-III-50 were based on this adaptation. The results of MIMIC-III were based on first 512 tokens only due to a memory usage above the 60G limit.
 
 # Acknowledgement
