@@ -45,8 +45,8 @@ def _code_emb_init(self, code_emb, code_list):
 See the folders for detailed results (mean and standard deviation)of various Micro-averaged, Macro-averaged, and example-based metrics) of each model.
 
 <p align="center">
-    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-results.JPG" width="450" title="Results of the MIMIC-III dataset">
-    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-50%20results.JPG" width="450" title="Results of the MIMIC-III-50 dataset">
+    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-results.JPG" width="435" title="Results of the MIMIC-III dataset">
+    <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-50%20results.JPG" width="435" title="Results of the MIMIC-III-50 dataset">
 </p>
 
 # Requirements
@@ -69,5 +69,5 @@ We used the continous bag-of-words algorithm (cbow) in Gensim word2vec (see [gen
 * Training BERT for long documents: We adapted the sliding window approach from [SimpleTransformers](https://github.com/ThilinaRajapakse/simpletransformers) for multi-label classification. The idea is to treat a long document (discharge summaries in this project) as separate documents within the token length limit (sharing same set of labels) for training. During the testing stage, output averaged results of separated documents. The results of MIMIC-III-50 were based on this adaptation. The results of MIMIC-III were based on first 512 tokens only due to a memory usage above the 60G limit.
 
 # Acknowledgement
-* MIMIC-III dataset is from https://mimic.physionet.org/ after request and training.
+* The MIMIC-III dataset is from https://mimic.physionet.org/ after request and training.
 * Thanks for the kind answers from [SimpleTransformers](https://github.com/ThilinaRajapakse/simpletransformers).
