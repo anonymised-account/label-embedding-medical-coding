@@ -59,6 +59,9 @@ Using the continous bag-of-words algorithm (cbow) in Gensim word2vec (see [gensi
 # Using BioBERT
 See answer from https://github.com/huggingface/transformers/issues/457#issuecomment-518403170.
 
+# Training BERT for long documents
+This is a challenging point in the project. We adapted the sliding window approach from [SimpleTransformers](https://github.com/ThilinaRajapakse/simpletransformers) for multi-label classification. The idea is to treat a long document (discharge summaries in this project) as separate documents within the token length limit (sharing same set of labels) for training. During the testing stage, output averaged results of separated documents. The results of MIMIC-III-50 were based on this adaptation. The results of MIMIC-III were based on first 512 tokens only due to a memory usage above the 60G limit.
+
 # Acknowledgement
 * MIMIC-III dataset is from https://mimic.physionet.org/ after request and training.
 * Thanks for the kind answers from [SimpleTransformers](https://github.com/ThilinaRajapakse/simpletransformers).
