@@ -42,7 +42,7 @@ def _code_emb_init(self, code_emb, code_list):
 ```
 
 # Results
-See the folders for detailed results (mean and standard deviation)of various Micro-averaged, Macro-averaged, and example-based metrics) of each model.
+See the folders for detailed results (mean and standard deviation)of various Micro-averaged, Macro-averaged, and example-based metrics) of each model. Brief results are in the figures below, where ```+LE``` means the model with label embedding initialisation.
 
 <p align="center">
     <img src="https://github.com/anonymised-account/label-embedding-medical-coding/blob/master/mimic-iii-results.JPG" width="435" title="Results of the MIMIC-III dataset">
